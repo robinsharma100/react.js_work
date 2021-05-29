@@ -1,0 +1,27 @@
+
+.form_container{
+    max-width: 100%;
+    border: 2px solid rgb(18, 173, 166);
+    padding:10px;
+    border-radius: 0.95rem;
+    color:azure;
+    background-image: linear-gradient(to right top, #051937, #47255a, #912462, #ce314b, #eb6712);
+
+    box-shadow: 8px 24px 35px -6px rgba(46,74,117,1);
+
+}
+
+.form-control{
+    border:2px solid rgb(18, 173, 166);
+    border-radius: 1rem;
+}
+
+.submit_button{
+    background-color: #8f006d;
+    border:1px solid #eb6712;
+}
+
+.submit_button:hover{
+    background-color: #b8038d;
+    transition: linear;
+}

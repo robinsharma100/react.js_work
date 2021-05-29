@@ -1,0 +1,77 @@
+.card{
+    width:100%;
+    min-height:50%;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card-body{
+    font-size: 3.5vh;
+    font-weight: 500;
+    color:azure;
+}
+
+.Add_btn{
+    border-radius: 44px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 25px;
+    text-decoration: none;
+    border:1px solid #3498db;
+    background-image: linear-gradient(to right top, #051937, #47255a, #912462, #ce314b, #eb6712);
+    box-shadow: -1px 9px 16px -2px rgba(0,0,0,0.98);
+    transition:box-shadow ,background-image, 0.5s;
+    
+}
+
+.Add_btn:hover{
+    background-image: linear-gradient(to right top, #37052a, #4f1250, #5d277e, #5842b2, #1261eb);
+    box-shadow: -1px 9px 16px -2px rgba(0,0,0,0);
+}
+
+.detail{
+    max-width:75%;
+}
+
+.select_div{
+    color:azure;
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+
+.value_btn{
+    color:azure;
+    font-size: 3vh;
+    font-weight: 500;
+}
+
+.val_change_btn{
+    background: rgb(187,78,136);
+    background: linear-gradient(143deg, rgba(187,78,136,1) 15%, rgba(218,22,22,1) 49%, rgba(159,113,49,1) 94%);
+    border-radius: 60px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border:0px solid azure;
+    box-shadow:
+    0 0px 8.3px rgba(0, 0, 0, 0.235),
+    0 0.1px 21.1px rgba(0, 0, 0, 0.379),
+    0 0.2px 43.1px rgba(0, 0, 0, 0.465),
+    0 0.4px 88.7px rgba(0, 0, 0, 0.501),
+    0 1px 243px rgba(0, 0, 0, 0.47)
+    ;
+    transition:box-shadow 0.1s;
+  
+}
+
+.val_change_btn:hover{
+    box-shadow:none;
+;
+
+}

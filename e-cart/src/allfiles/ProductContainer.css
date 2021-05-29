@@ -1,0 +1,13 @@
+.main_container{
+    max-width: 100%;
+    border: 2px solid rgb(18, 173, 166);
+    padding:10px;
+    border-radius: 0.95rem;
+    background-image: linear-gradient(to right top, #051937, #47255a, #912462, #ce314b, #eb6712);
+    box-shadow: 1px 2px 22px 11px rgba(46,74,117,1);
+
+}
+
+.main_container h2{
+    color:azure;
+}
